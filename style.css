@@ -1,11 +1,86 @@
-body {
-  width: 550px;
-  color: #444;
-  font-size: 16px;
-  text-align: left;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.3;
 }
-
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Optima, Calibri, sans-serif;
+    background-color: #221900;
+    color: #ecd078;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    width: 100%;
+    background-color: #542437;
+}
 h1 {
-  color: #1800ff;
-  font-size: 52px;
+    padding-left: .5em;
+    font-family: cursive;
+    font-size: 2em;
+    font-weight: 400;
+    text-size:small cups;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: inherit; 
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav li {
+    padding: 1em 2.5em;
+    text-transform: uppercase;
+}
+.current-page {
+    padding: .75em;
+    background-color: #ecd078;
+    color: #221900;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: #d95b43;
+    text-decoration: underline;
+}
+main {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-grow: 1;
+    max-width: 800px;
+    font-family: Optima, Calibri, sans-serif;
+    padding-bottom: 3.5em;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #542437;
+}
+footer p {
+    padding: 0 1.5em;
+    font-size: 12px;
 }
