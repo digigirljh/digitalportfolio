@@ -1,2 +1,0 @@
-# digitalportfolio
-Created with CodeSandbox
