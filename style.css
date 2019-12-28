@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     line-height: 1.3;
+    font-size: 100%;
 }
 body {
     display: flex;
@@ -69,6 +70,10 @@ main {
     padding-bottom: 3.5em;
     justify-content: center;
 }
+span {
+    font-family: Optima, Verdana, sans-serif;
+    font-size: 3em;
+}
 footer {
     display: flex;
     justify-content: center;
@@ -83,4 +88,17 @@ footer {
 footer p {
     padding: 0 1.5em;
     font-size: 12px;
+}
+img{
+   float:left;
+}
+.first-paragraph{
+  font-size:30px;
+  margin-left: 17em;
+  margin-top:0em;
+  display: flex;
+}
+.item itemA,item itemB{
+    display: flex;
+    flex-direction: row;
 }
